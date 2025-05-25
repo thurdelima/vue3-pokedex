@@ -26,16 +26,6 @@ const pokemon = defineProps([
       <h5 class="card-title text-center">{{ pokemon.name || '???' }}</h5>
       <hr />
 
-      <!-- <div class="row text-center">
-        <section class="col">
-          <strong>XP:</strong>
-          <span>{{ pokemon.xp }}</span>
-        </section>
-        <section class="col">
-          <strong>Altura:</strong>
-          <span>{{ pokemon.height }}</span>
-        </section>
-      </div> -->
       <div class="row text-center mb-3">
         <section class="col">
           <strong>XP:</strong>
@@ -80,7 +70,7 @@ const pokemon = defineProps([
         </div>
       </div>
 
-      <div class="stats" v-if="pokemon.stats">
+      <div class="stats d-none d-sm-block" v-if="pokemon.stats">
         <h6 class="text-center mb-2">Stats</h6>
         <div class="stat-bar-container">
           <div v-for="stat in pokemon.stats" :key="stat.stat.name" class="stat-row mb-2">
@@ -120,6 +110,17 @@ const pokemon = defineProps([
 }
 .CardPokemonSelected img {
   height: 180px;
+}
+
+@media (max-width: 768px) {
+  .CardPokemonSelected {
+    height: auto;
+    width: 100%;
+    margin: 0 auto 10px auto;
+  }
+  .CardPokemonSelected img {
+    height: 100px;
+  }
 }
 
 .type-badge {

@@ -23,7 +23,7 @@ _Powered by [PokéAPI](https://pokeapi.co/)_
 | Technology                                                                   | Purpose            |
 | ---------------------------------------------------------------------------- | ------------------ |
 | ![Vue](https://img.icons8.com/color/24/000000/vue-js.png) Vue 3              | Frontend framework |
-| ![Vite](https://vitejs.dev/logo.svg) Vite                                    | Build tool         |
+| <img src="https://vitejs.dev/logo.svg" width="24" height="24"> Vite          | Build tool         |
 | ![Axios](https://axios-http.com/assets/logo.svg) Axios                       | HTTP client        |
 | ![Bootstrap](https://img.icons8.com/color/24/000000/bootstrap.png) Bootstrap | CSS framework      |
 

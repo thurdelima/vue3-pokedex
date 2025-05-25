@@ -1,29 +1,44 @@
-# pokevite
+# 🚀 Vue3 Pokedex
 
-This template should help get you started developing with Vue 3 in Vite.
+**A modern Pokémon encyclopedia built with Vue 3 + Vite**  
+_Powered by [PokéAPI](https://pokeapi.co/)_
 
-## Recommended IDE Setup
+![Pokéball](https://img.icons8.com/color/48/000000/pokeball--v1.png)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+<div align="center" >
+  <img src="./pokevite.gif">
+</div>
 
-## Customize configuration
+## ✨ Features
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- 🔍 Search Pokémon by name
+- 📊 View detailed stats and attributes
+- 🌈 Type-colored Pokémon cards
+- 📱 Fully responsive design
+- ⚡ Lightning fast with Vite
+- 🔄 Infinite scrolling pagination
 
-## Project Setup
+## 🛠 Tech Stack
 
-```sh
+| Technology                                                                   | Purpose            |
+| ---------------------------------------------------------------------------- | ------------------ |
+| ![Vue](https://img.icons8.com/color/24/000000/vue-js.png) Vue 3              | Frontend framework |
+| ![Vite](https://vitejs.dev/logo.svg) Vite                                    | Build tool         |
+| ![Axios](https://axios-http.com/assets/logo.svg) Axios                       | HTTP client        |
+| ![Bootstrap](https://img.icons8.com/color/24/000000/bootstrap.png) Bootstrap | CSS framework      |
+
+## 🚀 Quick Start
+
+```bash
+# Clone repository
+git clone https://github.com/thurdelima/vue3-pokedex.git
+
+# Install dependencies
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Run development server
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
+# Build for production
 npm run build
 ```
